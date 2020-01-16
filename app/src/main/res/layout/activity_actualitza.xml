@@ -6,12 +6,77 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textViewNomActualitza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="110dp"
+        android:text="Nom:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewIdActualitza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="14dp"
+        android:text="Id:"
+        app:layout_constraintEnd_toStartOf="@+id/editTextIdActualitza"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextIdActualitza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:ems="10"
+        android:hint="Poner un id"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textViewIdActualitza"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewIdActualitza" />
+
+    <EditText
+        android:id="@+id/editTextNomActualitza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:ems="10"
+        android:hint="Poner un nombre nuevo"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewNomActualitza"
+        app:layout_constraintStart_toEndOf="@+id/textViewNomActualitza" />
+
+    <TextView
+        android:id="@+id/textViewEmailActualitza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="203dp"
+        android:text="Email:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextEmailActualitza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:ems="10"
+        android:hint="Poner un email nuevo"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textViewEmailActualitza"
+        app:layout_constraintStart_toEndOf="@+id/textViewEmailActualitza"
+        app:layout_constraintTop_toTopOf="@+id/textViewEmailActualitza" />
+
+    <Button
+        android:id="@+id/buttonActualitzaActualitza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="137dp"
         android:text="Actualitza"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

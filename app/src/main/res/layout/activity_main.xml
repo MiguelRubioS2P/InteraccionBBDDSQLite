@@ -8,66 +8,70 @@
 
     <Button
         android:id="@+id/Esborra"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="393dp"
+        android:layout_height="52dp"
         android:layout_marginStart="9dp"
+        android:layout_marginTop="276dp"
         android:layout_marginEnd="9dp"
         android:layout_marginBottom="403dp"
         android:text="Esborra"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Actualitza" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/Actualitza"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="393dp"
+        android:layout_height="52dp"
         android:layout_marginStart="9dp"
+        android:layout_marginTop="214dp"
         android:layout_marginEnd="9dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="465dp"
         android:text="Actualitza"
-        app:layout_constraintBottom_toTopOf="@+id/Esborra"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Llista" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/Llista"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="393dp"
+        android:layout_height="52dp"
         android:layout_marginStart="9dp"
+        android:layout_marginTop="148dp"
         android:layout_marginEnd="9dp"
-        android:layout_marginBottom="14dp"
+        android:layout_marginBottom="531dp"
         android:text="Llista"
-        app:layout_constraintBottom_toTopOf="@+id/Actualitza"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Consulta" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/Consulta"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="393dp"
+        android:layout_height="52dp"
         android:layout_marginStart="9dp"
+        android:layout_marginTop="82dp"
         android:layout_marginEnd="9dp"
-        android:layout_marginBottom="14dp"
+        android:layout_marginBottom="597dp"
         android:text="Consulta"
-        app:layout_constraintBottom_toTopOf="@+id/Llista"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Afegir" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/Afegir"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="393dp"
+        android:layout_height="52dp"
         android:layout_marginStart="9dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="352dp"
         android:layout_marginEnd="9dp"
-        android:layout_marginBottom="14dp"
+        android:layout_marginBottom="327dp"
         android:text="Afegir"
-        app:layout_constraintBottom_toTopOf="@+id/Consulta"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

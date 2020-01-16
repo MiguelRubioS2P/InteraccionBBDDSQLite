@@ -6,10 +6,36 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textViewId"
+        android:layout_width="0dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="21dp"
+        android:gravity="center"
+        android:text="Id:"
+        app:layout_constraintEnd_toStartOf="@+id/editTextIdConsulta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextIdConsulta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="344dp"
+        android:layout_marginEnd="84dp"
+        android:ems="10"
+        android:hint="Añadir una id"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textViewId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewId"
+        app:layout_constraintTop_toTopOf="@+id/textViewId" />
+
+    <Button
+        android:id="@+id/buttonConsultaConsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="269dp"
         android:text="Consulta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
