@@ -14,17 +14,17 @@ import java.util.HashMap;
 import cat.paucasesnovescifp.interaccionbbddsqlite.DBInterface;
 import cat.paucasesnovescifp.interaccionbbddsqlite.R;
 
-public class LlistaActivity extends AppCompatActivity {
+public class LlistaActivity extends ListActivity {
 
     SimpleAdapter adapter;
-    ListView listView;
+    //ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_llista);
 
-        listView = findViewById(R.id.lista_activity);
+        //listView = findViewById(R.id.lista_activity);
 
         llistaContactes();
 
@@ -72,7 +72,7 @@ public class LlistaActivity extends AppCompatActivity {
 
         bd.tanca();
         adapter = new SimpleAdapter(getApplicationContext(), llista, R.layout.activity_item_lista, new String[]{"id","nom","email"},new int[]{R.id.id_item_lista,R.id.nombre_item_lista,R.id.email_item_lista});
-        listView.setAdapter(adapter);
+        setListAdapter(adapter);
     }
 
 }
